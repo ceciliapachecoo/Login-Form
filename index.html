@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Login Form</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>User login</h1>
+                <i id="mode_icon" class="fa-regular fa-moon" style="color: rgb(197, 55, 113);"></i>
+            </div>
+
+            <div id="social_media">
+                <a href="#">
+                    <img src="assets/imgs/facebook.png" alt="Facebook logo"></a>
+                </a>
+
+                <a href="#">
+                    <img src="assets/imgs/google.png" alt="Google logo"></a>
+                </a>
+
+                <a href="#">
+                    <img src="assets/imgs/github.png" alt="GitHub logo"></a>
+                </a>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user" style="color: rgb(197, 55, 113);"></i>
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+                        </div>
+                    </label>
+
+                    <div class="input-box">
+                        <label for="email">
+                            Email
+                            <div class="input-field">
+                                <i class="fa-solid fa-envelope" style="color: rgb(197, 55, 113);"></i>
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">
+                            Password
+                            <div class="input-field">
+                                <i class="fa-solid fa-lock" style="color: rgb(197, 55, 113);"></i>
+                                <input type="password" id="password" name="password" placeholder="Enter your password">
+                            </div>
+                        </label>
+
+                        <div id="forgotpassword">
+                            <a href="#">
+                                Forgot password?
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <button type="submit" id="login_button">LOGIN</button>
+
+
+        </form>
+
+    </main>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
