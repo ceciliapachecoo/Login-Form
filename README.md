@@ -7,7 +7,3 @@ Foi desenvolvido com foco em design visual, organização de layout e aprimorame
 - CSS
 - JSS
 - Flexbox
-
-## ꒰🌷꒱ Inspirações
-Projeto inspirado em um tutorial da Larissa Kich para fins de estudo, com adaptações feitas por mim. 
-Link do tutorial: https://www.youtube.com/watch?v=LOjQYWRJmbk
